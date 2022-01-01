@@ -52,6 +52,7 @@ const getBoris = document.querySelector(".get-boris");
 const sunset = document.querySelector(".sunset");
 const deadSection = document.querySelector(".dead-article");
 const allArticles = document.querySelectorAll("article");
+const allArticleBlocks = document.querySelectorAll("article > div")
 
 // show / hide and other functions
 
@@ -80,6 +81,15 @@ const showBtn = () => {
     btns.style.visibility = "visible";
   });
 };
+
+function resetAllText() {
+  allArticles.forEach((selector) => {
+    selector.style.display = null;
+  });
+  allArticleBlocks.forEach((selector) => {
+    selector.style.display = null;
+  });
+}
 
 function showText(selector) {
   selector.style.display = "block";
@@ -250,10 +260,7 @@ function main() {
     score += 10;
     unkillButtons(allBtns);
     console.log(allBtns);
-    allArticles.forEach((article) => {
-      hideText(article);
-      return;
-    });
+    resetAllText();
     hideText(deadSection);
     showP1();
   });
