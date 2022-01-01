@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalise.css" />
+    <link rel="stylesheet" href="./modal.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav>
+      <img src="./images/gun.svg" alt="pistol" class="logo" />
+      <p class="nav-title">Brothers In The West</p>
+      <p>
+        <a
+          href="#"
+          class="nav-link"
+          data-target="simpleModal_1"
+          data-toggle="modal"
+          >Leaderboard</a
+        >
+      </p>
+
+      <!-- hidden scoreboard modal -->
+      <div id="simpleModal_1" class="modal">
+        <div class="modal-window">
+          <span class="close" data-dismiss="modal">×</span>
+          <h3>Leaderboard</h3>
+          <table class="result">
+            <tr>
+              <th>ID</th>
+              <th>User</th>
+              <th>Score</th>
+              <th>Date & Time</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Pyi</td>
+              <td>8</td>
+              <td>30-11-2021 0:52:30</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </nav>
+
+    <!-- The Game -->
+    <main>
+      <section class="intro">
+        <article class="set-up">
+          <h1>Brothers In The West</h1>
+          <p class="prologue">
+            <strong>Boris “The Bandit” Ronson</strong> was an infamous outlaw
+            for all the wrong reasons. He was bumbling at best - he was as
+            bright as rusted iron, he couldn't pour water out of a boot with the
+            instructions on the heel… But he was your brother and that meant
+            that when he got into trouble with the law, it was your job to get
+            him out again.
+          </p>
+          <form class="input-form">
+            <label for="name-input">Enter your cowboy name</label>
+            <input type="text" id="name-input" required />
+            <button class="start-btn">Rescue Boris</button>
+          </form>
+        </article>
+        <article class="ride">
+          <figure>
+            <img src="./images/ride.jpeg" alt="riding" class="ride-img" />
+          </figure>
+          <h2 class="welcome"></h2>
+          <p class="ride-intro">
+            Rumour has it that Boris had been at an illegal shindig somewhere
+            down south the night before last. The law had caught wind of it and
+            had stormed the place, arresting every Tom, Dick and Harry who
+            hadn’t managed to hightail it out of there and ofcourse, Boris had
+            been one of the ones who had been as drunk as a skunk, so much so
+            that he hadn’t even been able to mount his horse and make a getaway.
+            Hauled down to the <span class="geo-city"></span> Sherrif’s Office
+            where, if you don’t go sharpish, he’ll swing come the morning!
+          </p>
+          <button class="next-btn">Next...</button>
+        </article>
+      </section>
+      <!-- chapter 1 -->
+      <section class="chapter1">
+        <article class="p1">
+          <figure>
+            <img src="./images/saloon.png" alt="saloon" class="saloon-img" />
+          </figure>
+          <div class="saloon">
+            <p>
+              You haven’t been here for a while but it’s just the way you
+              remember it - a dusty little town with a generous sized watering
+              hole at the heart of it called The Cowpoke Saloon. The ride here
+              had been a long one, your back hurt and quite frankly, you were
+              parched so you hitched your reliable old horse and went in through
+              the swing doors. Another hour wouldn’t kill Boris… Hopefully.
+            </p>
+            <p>
+              Your footsteps are loud on the aged wooden floorboards and your
+              spurs make a pleasant jingling sound as you walk. It’s enough to
+              turn the heads of the patrons inside The Cowpoke Saloon, all who
+              survey this stranger with differing levels of interest and
+              suspicion. You’ve been around the block enough times as to not let
+              the stares disconcert you - you walk into the saloon as if you
+              belong there.
+            </p>
+            <p>
+              You notice an intriguing looking <strong>fellow</strong> sat at a
+              circular table alone, shuffling a deck of cards with white-gloved
+              hands. He stands out because he is so well dressed in comparison
+              to the other day drinkers; he wears a top hat, a baby blue silk
+              waistcoat with a pocket watch. His eyes which catch yours for the
+              merset of moments are a shimmering emerald green and his dark
+              moustache is waxed and turned up at the corners with the utmost
+              precision.
+            </p>
+            <p>
+              At the bar there is a round-faced <strong>barman</strong> with
+              rosy cheeks cleaning glasses idly. He acknowledges you and you
+              start forwards.
+            </p>
+            <p>
+              “Hey there handsome, you lookin’ for some company?” A buxom
+              <strong>redhead</strong> asks you. She’s standing by a wide wooden
+              staircase that leads to the upper floor of the saloon. As you look
+              at her, she has a devilish gleam in her eye.
+            </p>
+            Talk to...
+          </div>
+          <div class="p1-buttons btn-group">
+            <button class="p1-btn-1">The Redhead</button>
+            <button class="p1-btn-2">The Barman</button>
+            <button class="p1-btn-3">Mysterious man</button>
+          </div>
+        </article>
+        <article class="redhead">
+          <div class="redhead-intro">
+            <p>
+              You smile at the redhead, “depends on who’s asking.” “That’s for
+              me to know and you to find out,” she replies without missing a
+              beat. “Now, are you really gonna make a girl beg?” You shake your
+              head, “of course not.” “That’s what I like to hear, sugar.” She
+              holds her hand out to you and you accept it as she begins to make
+              her way up the stairs and you follow. The din from the bar is
+              quickly left behind you as you find yourself in a hallway lined
+              with pictures of the town and famous people who had visited the
+              saloon in years gone by. There’s carpet up here, red and plush
+              under your boots and your spurs don’t even make a sound now. It
+              strikes you just how quiet it is. The redhead seems to know
+              exactly where she’s going and stops before a room: 2b. She’s
+              finding the key to unlock it but something about all of this has
+              made you feel uneasy…
+            </p>
+            <button class="redhead-yes">Proceed anyway</button
+            ><button class="redhead-no">Perhaps another time</button>
+          </div>
+          <div class="redhead-end">
+            <p>
+              She manages to open the door and you step inside the room which
+              unlike the rest of the upstairs is remarkably bare besides a bed.
+              You don’t have time to consider this as there’s suddenly a pain in
+              your back. You whirl around to see that the woman who you had
+              thought had been fumbling for a key actually holds a knife. It’s
+              now a bloody knife. Your blood. You fall forward face first onto
+              the bed and she quickly relieves you of all your money and
+              valuables. I guess you should never judge a book by it's cover.
+            </p>
+          </div>
+        </article>
+        <article class="bar">
+          <div class="bar-intro">
+            <p>
+              You lean against the bar and order a whiskey. “Haven’t seen you
+              ‘round here before.” The barman says as he sets the drink down.
+              You shrug and slug it in one. “Just passin’ through.” Although you
+              have enough money on you to drink the bar dry at least twice over,
+              you really should start thinking about setting dear Boris free…
+              But one more couldn’t hurt, right?
+            </p>
+            <button class="bar-yes">Another! Boris will be fine.</button>
+            <button class="bar-no">Save Boris</button>
+          </div>
+          <div class="bar-end">
+            <p>
+              One whiskey quickly becomes two, three and four and before you
+              know it, the room is spinning faster than [something.] and you’re
+              lying on your back.
+            </p>
+          </div>
+        </article>
+        <article class="my-man">
+          <div class="my-man-intro">
+            <p>
+              You go to leave the saloon but the mysterious man at the circular
+              table calls out to you: <br />“wait one moment! Why don’t you play
+              a round of cards with me?”<br />
+              You turn back to face him, “sorry mister, I got important business
+              to attend to.”<br />
+              “Nonsense!” He replies to your surprise, “sit with me dear
+              boy.”<br />
+              You go to the table, those dazzling eyes fixed on yours. “Listen,
+              mister, I got important business to attend to, I’m afraid I don’t
+              got time for your little card game.”<br />
+              The man smirked at you in a knowing way, his eyes twinkled,
+              “you’re here to save your brother from the rope tomorrow.”<br />
+              Your eyes widened at this, how could he have known that?!<br />
+              “I think I have some information that could help you in your
+              endeavour and I’d be prepared to share it with you if you play a
+              game with me.”<br />
+              Uncertainly, you sit down, “what kind of game.”<br />
+              “It’s simple, really. Pick a card and I guess it. If I guess it
+              correctly, you buy me a drink, if I guess it wrongly, well, then I
+              will give you the information that will help procure your dear
+              brother.”<br />
+              With his deft, gloved hands, he shuffles the deck of cards before
+              you before fanning them out in one graceful movement.<br />
+              You reach out and take one impatiently, the man flips the card and
+              a smirk tugs at the side of his lips.<br />
+              “All you have to do is pick what suit you think it is.”
+            </p>
+
+            <div class="btn-group">
+              <button class="my-cards spades">♠Spades♠</button>
+              <button class="my-cards clubs">♣Clubs♣</button>
+              <button class="my-cards diamonds">♦️Diamonds♦️</button>
+              <button class="my-cards hearts">♥️Hearts♥️</button>
+            </div>
+          </div>
+          <div class="my-man-end"></div>
+          <div class="my-man-next">
+            <p>
+              Correct my friend, he says laughing gleefully, and now as thanks
+              for playing this little game with me, i will impart my knowledge
+              to you. Sheriff Broad is guardian your dear, sweet brother as we
+              so speak, however… it has come to my attention that he leaves his
+              post every night without fail to visit a Mrs Westbrook who lives
+              the next town over. I have it on good authority that the Sheriff
+              is gone from 11pm - 3 am…. Before Mr Westbrook returns from his
+              night shift at the railway station.
+            </p>
+            <p>
+              You thank the mysterious gentleman and leave the saloon. As you do
+              so, you check your pocket watch and see that it is already 10pm so
+              you settle outside the bank which is opposite the sheriffs office
+              and wait until you see him leave, just like the mysterious geltman
+              said he would, at 11pm and not a minute later.
+            </p>
+            <button class="saloon-end-btn">Next...</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- Chapter 2 -->
+      <section class="chapter2">
+        <article class="sheriff">
+          <figure>
+            <img
+              src="./images/sheriff.png"
+              alt="sheriff-office"
+              class="sheriff-img"
+            />
+          </figure>
+          <div class="sheriff-intro">
+            <p>
+              You walk over to the sheriff’s office and glance through the
+              window and it’s a good job you did because you see that sitting
+              behind the desk with his feet up and cleaning his revolver, is the
+              sherrif’s deputy. You hadn’t bet on that and nor had the
+              mysterious man told you about him! You had half a mind to go back
+              and shive those playing cards where the sun didn’t shine but that
+              could wait, right now you had to come up with a plan.
+            </p>
+            <div class="dep-buttons btn-group">
+              <button class="p2-btn-1 bribe">Bribe</button>
+              <button class="p2-btn-2 distract">Distract</button>
+            </div>
+          </div>
+          <div class="sheriff-end">
+            <p>
+              You walk into the sheriff’s office and flash the man a smile that
+              you hoped was winning. “Listen Deputy… That here is my brother in
+              the cell, he’s not the brightest spark unfortunately and I’m sure
+              whatever he did to land himself in here he’s very sorry about it.”
+              The deputy rolled his eyes as if he had heard this a thousand
+              times before and you didn’t doubt that. “I was hoping that we
+              could iron out this *misunderstanding*” You said as you slide a
+              few dollar bills across the table to him “Are you tryin to bribe
+              me, son?” he asked and you shrug, “it is an offence to bribe a
+              lawman, you know that, don’t you?” You had been hoping that
+              perhaps the deputy would not mind this but ut seemed he did as you
+              were frogmarched to the cell where Borsi is happily snoozing and
+              put inside.
+            </p>
+          </div>
+        </article>
+        <article class="get-boris">
+          <p>
+            I was going to take care of it myself but i thought i’d leave it in
+            the <em>*capable*</em> hands of the law. You did the right thing
+            there, son. Just doing my best as a concerned citizen! The deputy
+            leaves the sheriff’s office and you know you only have a limited
+            time before he sees that there’s nothing going on around the back of
+            the bank. You grab the keys from the table and let your brother out
+            You run from the sheriff’s office and towards your horse who is
+            still hitched outside of the saloon and you can hear the deputy
+            shouting as he ran back to the jail, realising he’d been had.
+          </p>
+          <button class="btn-final">Next...</button>
+        </article>
+      </section>
+
+      <!-- Epilogue -->
+      <section class="epilogue">
+        <article class="sunset">
+          <h3>Congratulations, you managed to get Boris out of jail!</h3>
+          <figure>
+            <img src="./images/sunset.jpeg" alt="sunset riders" />
+          </figure>
+          <p>
+            Hope you've had fun playing Brothers In The West. Check out the
+            leaderboard and see if you've made the top ten! If not, why not have
+            another go :)
+          </p>
+          <!-- <button class="replay-btn-win">Replay</button> -->
+        </article>
+      </section>
+
+      <!-- Game Over -->
+      <section class="dead-section">
+        <article class="dead-article">
+          <h3>A glorious gunslinger's effort!</h3>
+          <p>Better luck next time</p>
+          <figure>
+            <img class="headstone-img" src="./images/headstone.png" />
+          </figure>
+          <button class="replay-btn-lose">Replay</button>
+        </article>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <p>Game developed by Pyi</p>
+      <p>Story by <span class="toby">Toby</span></p>
+    </footer>
+    <script src="./main.js"></script>
+    <script src="./modal.js"></script>
+  </body>
+</html>
