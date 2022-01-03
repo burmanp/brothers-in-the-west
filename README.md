@@ -16,6 +16,7 @@ You have 100 points to start with and every decision takes 1 point off while eac
 ---
 #### Please have fun responsibily.
 
+[Demo here](https://brothers-in-the-west.herokuapp.com/)
 
 Game developed by Pyi.
 Story written by *Toby*.
