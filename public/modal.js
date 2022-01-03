@@ -1,5 +1,8 @@
+// import { updateTable, fetchTopPlayers } from "../public/main";
+
 document.addEventListener(
-  "click", (e) => {
+  "click",
+  (e) => {
     e = e || window.event;
     let target = e.target;
 

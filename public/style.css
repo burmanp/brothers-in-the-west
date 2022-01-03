@@ -129,13 +129,22 @@ article{
   animation: fade-in 4s;
 }
 
-.my-man p {
+.my-man p, .distract-dep {
   text-align: left;
   padding: 0 4em;
 }
 
 .replay-btn{
   display: inline-block;
+}
+
+.reload{
+  color: var(--text_color);
+  font-weight: var(--font_bold);
+}
+.reload:hover{
+  color: var(--btn_color);
+  cursor: pointer;
 }
 
 

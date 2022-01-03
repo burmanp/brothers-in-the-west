@@ -1,0 +1,35 @@
+{
+  "name": "brothers-in-the-west",
+  "version": "1.0.0",
+  "description": "---  > No games is without bugs!! ---",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon -r dotenv/config app.js",
+    "createPlayersTable": "node -r dotenv/config db/scripts/createPlayersTable.js",
+    "populateTable": "node -r dotenv/config db/scripts/populateTable.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burmanp/brothers-in-the-west.git"
+  },
+  "keywords": [],
+  "author": "Pyi",
+  "story": "Toby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burmanp/brothers-in-the-west/issues"
+  },
+  "homepage": "https://github.com/burmanp/brothers-in-the-west#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

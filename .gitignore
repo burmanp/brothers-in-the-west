@@ -1,4 +1,3 @@
 .vscode
-app.js
-images/
-sounds/
+.env
+node_modules/
